@@ -10,7 +10,7 @@ pipeline {
 				git "https://github.com/himabindu7702/devops-batch.git"
 			}
 		}
-		stage('mavne-build'){
+		stage('maven-build'){
 			steps {
 				sh 'mvn clean package -DskipTests'
 				}
