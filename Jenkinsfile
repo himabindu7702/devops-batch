@@ -7,7 +7,7 @@ pipeline {
 	stages {
 		stage('git-code-checkout'){
 			steps {
-				git "https://github.com/kphbuser/Flow.git"
+				git "https://github.com/himabindu7702/devops-batch.git"
 			}
 		}
 		stage('mavne-build'){
